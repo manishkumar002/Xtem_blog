@@ -1,0 +1,59 @@
+.head{
+    background: #454dda;
+   min-height: 80px;
+}
+
+ul li{
+    list-style-type: none;
+    float: left; 
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    line-height: 80px;
+    border-radius: 7px;
+    transition: all ease .8s;
+  
+  }
+  .w{
+    color: white;
+  }
+
+  .menu-main{
+    display: flex;
+    
+  }
+  .sel{
+    height: 30px;
+    margin-top: 30px;
+  }
+  
+  @media (max-width:1183px){
+    #man{
+        display: none;
+        
+    }
+    ul li{          
+      line-height: 52px;              
+    }
+  }
+
+  @media (min-width:1183px){
+    #min{
+        display: none;
+    }
+  }
+
+  @media (min-width:900px){
+    #men{
+        display: none;
+    }
+  }
+.but{
+  transform: translateY(30px);
+  height: 30px;
+  background: black;
+  color:white;
+}
+  
+
+

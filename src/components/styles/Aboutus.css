@@ -1,0 +1,15 @@
+.top{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    font-size: 18px;
+}
+.top1{
+    min-height: 400px;
+    border: 2px solid #ced1d8;
+}
+span{
+    font-size: 14px;
+}
+
+

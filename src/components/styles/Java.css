@@ -1,0 +1,28 @@
+
+.m{
+    background: #eeeeee;
+}
+.j{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+}
+.j1{
+    min-height: 400px;
+    background: white;
+    border: 1px solid #ced1d8;
+}
+.j2{
+    background: #eeeeee;
+    height: 50px;
+}
+.j3{
+    min-height: 300px;
+    border: 1px solid #ced1d8;
+    border-bottom: none;
+}
+span{
+    font-size: 14px;
+}

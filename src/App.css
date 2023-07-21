@@ -1,0 +1,294 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.buttom
+{
+  height: 70px;
+  background-color: blue;
+  box-shadow: 0px 1px 2px 3px black;
+  color: white;
+
+}
+i
+{
+  line-height: 70px;
+}
+
+.po
+{
+
+  color: white;
+  font-size: 15px;
+  margin-left: 20px;
+
+}
+/* @media(max-width:550px)
+{
+    width: auto;
+} */
+
+.h{
+  min-height: 450px;
+  background-size: 100% 100%;
+background-image: url('../public/images/sit.jpg');
+}
+.hp{
+  margin-top: 130px;
+}
+
+.top
+{
+  height: 40px;
+  color: white;
+  background-color: rgb(62, 62, 241);
+}
+.cont
+{
+  height: 40px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: Eras Bold ITC;
+
+}
+.contact
+{
+
+  height: 460px;
+
+  box-shadow: -1px -1px 4px black;
+  border-radius: 10px;
+ 
+}
+.mag
+{
+  height: 60px;
+}
+input
+{
+  box-shadow: inset(0px 0px 0px 4px ) black;
+}
+.niche
+{
+  height: 30px;
+  background-color: #14539a;
+}
+.logo
+{
+  min-height: 150px;
+  box-shadow: -1px -1px 4px black;
+  border-radius: 10px;
+}
+.logo1
+{
+  min-height: 90px;
+  box-shadow: -1px -1px 8px black;
+  border: 2px solid blue;
+}
+.register
+{
+ min-height: 500px;
+  box-shadow: -1px -1px 3px black;
+}
+.rog
+{
+  height: 40px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: Eras Bold ITC;
+}
+.homes
+{
+  border: 1px solid #ced1d8;
+  min-height: 200px;
+  background-color: white;
+}
+.img5
+{
+  height: 140px;
+  width: 160px;
+  margin-left: 50px;
+  box-shadow: -2px -2px 4px black;
+}
+
+.top4:hover
+{
+
+  box-sizing: border-box;
+  transform: scale(1);
+  box-shadow: -1px 2px 5px blue;
+}/*
+.top4
+{
+min-height: 200px;
+  width: 390px; 
+ box-shadow: -1px 2px 5px blue;
+}
+ */
+
+.javablog
+{
+  min-height: 40px;
+  background-color: rgb(17, 35, 232);
+  color: white;
+}
+.javablog1
+{
+  background-color: darkgray;
+  min-height: 50px;
+
+  
+}
+.foot{
+  height: 70px;
+  background-color:  rgb(17, 35, 232);
+ 
+}
+.d{
+  transform: translateY(-20px);
+}
+#rigs
+{
+display: none;
+}
+#rigs1
+{
+display: none;
+}
+
+
+.slider
+  {
+    height: 150px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  .slide-track
+  {
+    display: flex;
+    width: calc(350px * 12);
+    animation: scroll 20s linear infinite;
+  }
+  .slide-track:hover
+  {
+
+    animation-play-state:paused ;
+  }
+  .sliders{
+    height: 60px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+   
+  }
+.im
+{
+  width: 100%;
+  box-shadow: 2px  3px 4px black;
+}
+@keyframes scroll{
+  0%
+  {
+transform: translate(0);
+  }
+  100%
+  {
+    transform: translateX(calc(-250px *6));
+  }
+}
+.home{
+  background-color: #e6e6e6;
+}
+
+
+*{
+  margin: 0; padding:0; box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;}
+  .grand_parent{
+    
+    width: 90vw;
+    min-height:70vh;
+  
+  }
+
+  .parents{ 
+    width: 80vw; 
+    min-height: auto;
+   margin-left:20px;
+   display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+  }
+
+.child{
+  min-height: 200px;
+  box-shadow: 1px 1px 5px #bac3c3;
+  flex:1 1 200px;
+  margin: 10px;
+}
+
+.child:hover{
+  min-height: 200px;
+  box-shadow: 1px 1px 5px blue;
+  flex:1 1 200px;
+  margin: 10px;
+}
+
+
+
+@media (max-width: 768px){
+  .grand_parent{height:auto; }
+}
+
+
+  h1{
+    font-size: 4rem;
+    padding: 20px 0;
+    text-align: center;
+    color: #000;
+  }
+ 

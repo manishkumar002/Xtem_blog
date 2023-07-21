@@ -1,0 +1,28 @@
+.reg{
+    height: 100px;
+    box-shadow: -1px -1px 5px black;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.reg1{
+    height: 70px;
+    border:2px solid blue;
+    margin-top: 15px;
+}
+.reg2{
+    height: 700px;
+    box-shadow: -1px -1px 5px black;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.reg3{
+    height: 40px;
+    background: #454dda;
+    line-height: 31px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    
+}

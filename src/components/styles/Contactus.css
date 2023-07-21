@@ -1,0 +1,30 @@
+.con{
+    min-height: 580px;
+    background: #eeeeee;
+}
+.box{
+    min-height: 500px;
+    box-shadow: -1px -1px 5px black;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.box1{
+    height: 40px;
+    background: #454dda;
+    line-height: 31px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.box2{
+    height: 40px;
+    background: #454dda;
+    line-height: 31px;
+    margin-top: 20px;
+    line-height: 40px;
+    text-align: center;
+    
+}
